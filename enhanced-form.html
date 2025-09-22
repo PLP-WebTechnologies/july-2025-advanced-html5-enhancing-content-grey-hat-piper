@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhancing HTML</title>
+</head>
+<body>
+    <header>
+        <h1>ENHANCED HTML</h1>
+    </header>
+    <main>
+        <section id="list">
+            <h2>List section</h2>
+            <ol>
+                <li>Fruits</li>
+                <ul>
+                    <li>Apple</li>
+                    <li>Banana</li>
+                </ul>
+                <li>Vegetables</li>
+                <ul>
+                    <li>Tomato</li>
+                    <li>Onion</li>
+                </ul>              
+                <li>Provision</li>
+                <ul>
+                    <li>Water</li>
+                </ul>
+            </ol>
+        </section>
+        <section id="table"><br>
+            <h2>Table section</h2>
+            <table border="1" >
+                <thead>
+                    <tr>
+                        <th>Student</th>
+                        <th>Gender</th>
+                        <th>Age</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Derek</td>
+                        <td>Male</td>
+                        <td>24</td>
+                    </tr>
+                    <tr>
+                        <td>Angela</td>
+                        <td>Female</td>
+                        <td>20</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section><br>
+        <section id="media">
+            <h2>Media section</h2>
+            <p>Embeded Image</p>
+            <img src="https://images.pexels.com/photos/33635980/pexels-photo-33635980.jpeg" alt="image of a door" width="300" height="500">
+            <p>Embeded Video</p>
+            <video width="640" height="360" controls>
+                <source src="https://www.pexels.com/download/video/33913416/" type="video/mp4">
+            </video>
+            <p>Embeded Audio</p>
+            <audio controls>
+                <source src="audio.mp3" type="audio/mp3">
+            </audio>
+        </section><br>
+        <section id="form">
+            <h2>Form section</h2>
+            <form action="" method="post">
+                <fieldset>
+                    <legend>Form Content</legend>
+                    <label for="name">NAME</label><br>
+                    <input type="text" id="name" name="name" required><br>
+                    <label for="email">EMAIL</label><br>
+                    <input type="email" name="email" id="email" required autocomplete="address-level1" pattern="\w{3,16}"><br>
+                    <label for="age">AGE</label><br>
+                    <input type="text" id="age" name="age" value="6" readonly><br>
+                    <label for="password">PASSWORD</label><br>
+                    <input type="password" name="password" id="password" required minlength="4"><br>
+                    <label for="message">SEND MESSAGE</label><br>
+                    <input type="text" name="message" id="message" placeholder="Type message here"><br>
+                    <button type="submit">SUBMIT</button>
+                </fieldset>
+            </form>
+        </section>
+    </main><br>
+    <footer>
+        &copy; Derek Martey
+    </footer>
+</body>
+</html>
